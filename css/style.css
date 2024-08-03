@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Short+Stack&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F6E6CD;
+    color: #000;
+}
+html,body {
+    width: 100%;
+    height: 100vh;
+    background-color: #F6E6CD;
+}
+/*main sec*/
+.width-50 {
+    width: 50%;
+}
+.ml-6 {
+    margin-left: 6rem;
+}
+.f-s-4 {
+    font-size: 4.5rem;
+}
+.hero {
+    background-color: #F6E6CD;
+    color: #000;
+}
+.g-3 {
+    gap: 3rem;
+}
+.text-centre {
+    text-align: center;
+}
+.d-ruby {
+    display: ruby-text;
+}
+.g-1 {
+    gap: 1rem;
+}
+.margintop {
+    margin-top: -47px;
+}
+/*Responsive start*/
+@media screen and (max-width: 1199px) {
+    .f-s-4 {
+        font-size: 2.5rem;
+    }
+    .mt-2 {
+        margin-top: 1.5rem !important;
+    }
+    .img-fluid {
+        max-width: 50vw;
+        height: auto;
+    }
+    .ml-6 {
+        margin-left: -1rem;
+    }
+    .ml-20 {
+        margin-left: 20rem;
+    }
+    .feature-img {
+        width: 50vw;
+    }
+    .line {
+        display: none;
+    }
+    .fw-bolder {
+        font-weight: 900;
+    }
+    .offer-slider {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .tranding-slider {
+        margin-right: 1rem;
+        margin-left: 1rem;}
+}
+@media screen and (max-width: 991px) {
+    .f-s-4 {
+        font-size: 1.5rem;
+    }
+    .mt-2 {
+        margin-top: 0.5rem !important;
+    }
+    .ml-6 {
+        margin-left: 6rem;
+    }
+    .navbar-toggler {
+        margin-right: -2rem;
+    }
+    .btn-box {
+        margin-right: 1.1rem;
+    }
+    .feature-img {
+        display: none;
+    }
+    .hero  .text-box {
+        display: none;
+    }
+    .mr-res {
+        margin-right: 10.9rem;
+    }
+    .line {
+        display: none;
+    }
+    .fw-res {
+        font-size: 12px;
+    }
+    .fw-bolder {
+        font-weight: 800;
+    }
+    .offer-slider {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .tranding-slider {
+        margin-right: 1rem;
+        margin-left: 1rem;}
+}
+@media screen and (max-width: 767px) {
+    .fw-res {
+        font-size: 11px;
+    margin-bottom: 26px;}
+    .fw-res-2 {
+        font-size: 11px;
+        margin-bottom: 29px;
+    }
+    .mr-res {
+
+    }
+    .fw-bolder {
+        font-weight: 700;
+    }
+    .offer-slider {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .tranding-slider {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    .navbar-brand {
+        width: 63%;
+    }
+    .navbar-toggler {
+        margin-right: -1rem;
+        font-size: 17px;
+    }
+    .fw-bolder {
+        font-weight: 600;
+    }
+    .offer-slider {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .tranding-slider {
+        margin-right: 1rem;
+        margin-left: 1rem;}
+}
+/* Responsive wnds*/
